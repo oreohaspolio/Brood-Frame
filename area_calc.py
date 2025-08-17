@@ -56,7 +56,7 @@ if uploaded_file is not None:
         # Convert the raw results to a Pandas DataFrame
         df_raw_results = pd.DataFrame(raw_results_list)
 
-        st.subheader("ca")
+        st.subheader("Calculated Area: ")
 
         if not df_raw_results.empty:
             # Group by "File Name" and "Object Name" and sum the "Total Area"
